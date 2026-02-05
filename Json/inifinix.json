@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Infinix Zero 30",
+    "price": "PKR 59,999 ",
+    "image": "Pictures/infinix-zero30-5g.jpg",
+    "modeladded" : "Zero30",
+    "download" : "Pictures/Zero 30.docx"
+  },
+  {
+    "id": 2,
+    "name": "Infinix Hot 30",
+    "price": "PKR 30,099",
+    "image": "Pictures/infinix-hot-30.jpg",
+    "modeladded" : "Hot30",
+    "download" : "Pictures/Infinix hot 30.docx"
+  },
+  {
+    "id": 3,
+    "name": "Infinix Note 30",
+    "price": "PKR 43,799",
+    "image": "Pictures/infinix-note30-4g.jpg",
+    "modeladded" : "Note30",
+    "download" : "Pictures/Infinix Note 30.docx"
+  }
+]

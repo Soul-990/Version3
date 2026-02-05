@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Realme 11 pro",
+    "price": "PKR 84,999",
+    "image": "Pictures/realme-11-pro.jpg",
+    "modeladded" : "realme11",
+    "download" : "Pictures/Realme 11 Pro.docx"
+  },
+  {
+    "id": 2,
+    "name": "Realme C55",
+    "price": "PKR 48,000",
+    "image": "Pictures/realme-c55.jpg",
+    "modeladded" : "realmec55",
+    "download" : "Pictures/Realme C55.docx"
+  },
+  {
+    "id": 3,
+    "name": "Realme Gt neo2",
+    "price": "PKR 54,999",
+    "image": "Pictures/realme-gt-neo2.jpg",
+    "modeladded" : "Neo",
+    "download" : "Pictures/Realme GT Neo 2.docx"
+  }
+]

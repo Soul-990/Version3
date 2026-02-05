@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Google pexel 8",
+    "price": "PKR 90,000",
+    "image": "Pictures/google-pixel-8.jpg",
+    "modeladded" : "pexel8",
+    "download" : "Pictures/Meet Pixel 8.docx"
+  },
+  {
+    "id": 2,
+    "name": "Google pexel 9 pro",
+    "price": "PKR 221,999",
+    "image": "Pictures/google-pixel-9-pro-.jpg",
+    "modeladded" : "pexel9",
+    "download" : "Pictures/Google pexel 9 pro.docx"
+  },
+  {
+    "id": 3,
+    "name": "Google pexel 7a",
+    "price": "PKR 65,000",
+    "image": "Pictures/google-pixel-7a.jpg",
+    "modeladded" : "pexel7",
+    "download" : "Pictures/Google Pexel 7a.docx"
+  }
+]

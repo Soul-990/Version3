@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Apple iPhone 15",
+    "price": "PKR 274,999",
+    "image": "Pictures/apple-iphone-15.jpg",
+    "modeladded" : "iphone15",
+    "download" : "Pictures/iPhone 15.docx"
+  },
+  {
+    "id": 2,
+    "name": "Apple iPhone 14",
+    "price": "PKR 187,999",
+    "image": "Pictures/apple-iphone-14-pro.jpg",
+    "modeladded" : "iPhone14",
+    "download" : "Pictures/iPhone 14.docx"
+  },
+  {
+    "id": 3,
+    "name": "Apple iPhone 13",
+    "price": "PKR 169,999",
+    "image": "Pictures/apple-iphone-13.jpg",
+    "modeladded" : "iPhone13",
+    "download" : "Pictures/iPhone 13.docx"
+  }
+]

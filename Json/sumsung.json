@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Samsung Galaxy S23",
+    "price": "PKR 299,999",
+    "image": "Pictures/samsung-galaxy-s23-5g.jpg",
+    "modeladded" : "galaxyS28",
+    "download" : "Pictures/Galaxy S23 Ultra.docx"
+  },
+  {
+    "id": 2,
+    "name": "Samsung Galaxy A54",
+    "price": "PKR 124,999",
+    "image": "Pictures/samsung-galaxy-a54.jpg",
+    "modeladded" : "galaxyA54",
+    "download" : "Pictures/Galaxy A54.docx"
+  },
+  {
+    "id": 3,
+    "name": "Samsung Galaxy m14",
+    "price": "PKR 124,999",
+    "image": "Pictures/samsung-galaxy-m14-5g-sm-m146.jpg",
+    "modeladded" : "galaxyM14",
+    "download" : "Pictures/Galaxy M14.docx"
+  }
+]
