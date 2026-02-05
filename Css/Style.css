@@ -30,10 +30,14 @@ body {
   min-height: 70vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("/Pictures/background.png") no-repeat center center / cover;
   color: #fff;
   padding: 120px 0;
+
+  background:
+    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("../Pictures/background.png") center / cover no-repeat;
 }
+
 
 .back span {
   color: #dc3545;
