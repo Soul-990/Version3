@@ -10,13 +10,12 @@
     <link rel="stylesheet" href="Css/Style.css">
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div class="container">
     <a class="navbar-brand d-flex align-items-center fw-bold" href="index.html">
       <img src="Pictures/OceanGate logo.png" alt="OceanGate Logo" class="me-2">
       <span><span class="text-danger">Ocean</span>Gate</span>
     </a>
-
     <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -50,15 +49,10 @@
         <li class="nav-item">
           <a class="nav-link" href= "Contect.html">Contact</a>
         </li>
-        <li class="nav-item ms-lg-3">
-          <a class="btn btn-danger btn-sm px-3" href="">
-            Shop Now
-          </a>
-        </li>
       </ul>
     </div>
       </div>
-    </nav>
+</nav>
 
     <section class="about">
       <div class="container">
@@ -70,10 +64,10 @@
 <section class="about-section">
   <div class="container">
     <div class="row align-items-center g-5">
-      <div class="col-md-6">
+      <div class="col-md-4">
         <img src="Pictures/left pic.png" alt="OceanGate" class="about-img">
       </div>
-      <div class="col-md-6 about-text">
+      <div class="col-md-8 about-text">
         <h2>OceanGate</h2>
         <p>OceanGate is your premier destination for high-quality smartphones and cutting-edge technology. 
            Founded with a mission to connect people with innovation, we strive to bring the latest devices 
@@ -121,21 +115,21 @@
     <div class="row g-4 justify-content-center">
       <div class="col-md-6 col-lg-3">
         <div class="team-card text-center">
-          <img src="Pictures/Ceo.jpg" alt="CEO">
+          <img src="Pictures/Ceo.jpg" alt="CEO" class="img-fluid">
           <h5>Ali Khan</h5>
           <span>Founder & CEO</span>
         </div>
       </div>
       <div class="col-md-6 col-lg-3">
         <div class="team-card text-center">
-          <img src="Pictures/Developer.jpg" alt="Developer">
+          <img src="Pictures/Developer.jpg" alt="Developer" class="img-fluid">
           <h5>Ahmed Basheer</h5>
           <span>Chief Technology Officer</span>
         </div>
       </div>
       <div class="col-md-6 col-lg-3">
         <div class="team-card text-center">
-          <img src="Pictures/Desinger.jpg" alt="Designer">
+          <img src="Pictures/Desinger.jpg" alt="Designer" class="img-fluid">
           <h5>Usman Raza</h5>
           <span>UI / UX Designer</span>
         </div>
@@ -144,7 +138,7 @@
   </div>
 </section>
 
-<section class="Journery">
+<section class="Journery mb-5">
   <div class="container">
     <div class="text-center mb-5">
       <h2 class="fw-bold" style="color:#dc3545;">Our Story</h2>
@@ -196,16 +190,18 @@
       <div class="col-lg-3 col-md-6">
         <h5 class="footer-title">Stay Connected</h5>
         <p class="footer-text">Follow us for latest launches & deals.</p>
-        <div class="footer-social mb-3">
+        <form class="newsletter-form">
+          <input type="email" class="form-control mb-2" placeholder="Your email" required>
+          <button class="btn btn-danger w-100 btn-sm">Subscribe</button>
+        </form>
+        <div class="footer-social mt-4">
           <a href="#"><i class="fab fa-facebook-f"></i></a>
           <a href="#"><i class="fab fa-instagram"></i></a>
           <a href="#"><i class="fab fa-twitter"></i></a>
           <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
         </div>
-        <form class="newsletter-form">
-          <input type="email" class="form-control mb-2" placeholder="Your email">
-          <button class="btn btn-danger w-100 btn-sm">Subscribe</button>
-        </form>
+        
       </div>
     </div>
     <hr class="footer-line">

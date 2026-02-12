@@ -8,6 +8,9 @@ body {
     scroll-behavior: smooth; 
     background-color: #fff; 
 }
+.navbar{
+  background-color: #000 !important;
+}
     
 .nav-link::after {
       content: "";
@@ -34,12 +37,7 @@ body {
     url("../Pictures/background.png") center / cover no-repeat;
   color: #fff;
   padding: 120px 0;
-
-  background:
-    linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
-    url("../Pictures/background.png") center / cover no-repeat;
 }
-
 
 .back span {
   color: #dc3545;
@@ -163,9 +161,9 @@ body {
   color: #777;
 }
 .about {
-  background: black;
+  background: rgb(12, 10, 10);
   color: #fff;
-  padding: 120px 0;
+  padding: 30px 0;
   text-align: center;
 }
 .about span { 
@@ -228,8 +226,6 @@ body {
   box-shadow: 0 12px 25px rgba(0,0,0,0.15);
 }
 .team-card img {
-  width: 120px;
-  height: 120px;
   object-fit: cover;
   margin-bottom: 15px;
 }
@@ -304,6 +300,11 @@ body {
 .contact-form button:hover { 
   background: #b71c1c; 
 }
-
-
+#map { height: 400px; }
+h4{
+  color: #b71c1c;
+}
+h5{
+  color: #b71c1c;
+}
 
