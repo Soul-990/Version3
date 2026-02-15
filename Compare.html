@@ -1,16 +1,18 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>OceanGate | Compare</title>
-    <link rel="shortcut icon" href="Pictures/OceanGate logo.png" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <link rel="stylesheet" href="Css/Style.css">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OceanGate | Compare Products</title>
+  <link rel="shortcut icon" href="Pictures/OceanGate logo.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="Css/Style.css">
+</head>
+<body>
 
+  <!-- Navbar of the website -->
+    
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
       <div class="container">
         <a class="navbar-brand d-flex align-items-center fw-bold" href="index.html">
@@ -52,9 +54,698 @@
       </div>
     </nav>
 
+  <!-- Compare Section -->
+  <section class="container py-5">
+    <h2 class="text-center text-danger mb-4">Compare Products</h2>
+    <div class="row mb-4 justify-content-center">
+      <div class="col-md-4 mb-2">
+        <select id="product1" class="form-select">
+          <option value="">Select First Product</option>
+        </select>
+      </div>
+      <div class="col-md-4 mb-2">
+        <select id="product2" class="form-select">
+          <option value="">Select Second Product</option>
+        </select>
+      </div>
+    </div>
 
-<h1>Still working on it you will get this page soon!!!</h1>
+    <div id="compareResult" class="mt-5"></div>
+  </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+  <!-- All modals -->
+
+<div class="modal fade" id="galaxyS28" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">GalaxyS28</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="img text-center">
+          <img src="Pictures/samsung-galaxy-s23-5g.jpg" class="img-fluid text-center">
+          <h4>GalaxyS28</h4>
+        </div>
+        <p>The Samsung Galaxy S23 is a high-end, compact Android flagship smartphone from 2023, known for its powerful performance with the Snapdragon 8 Gen 2 for Galaxy chipset, excellent camera system, and all-day battery life.</p>
+        <h5>Display</h5>
+        <p>6.1-inch Dynamic AMOLED 2X display with a 120Hz adaptive refresh rate and 1750 nits peak brightness.</p>
+        <h5>Processor</h5>
+        <p>Custom Qualcomm Snapdragon 8 Gen 2 for Galaxy.</p>
+        <h5>RAM</h5>
+        <p>8Gb</p>
+        <h5>Storage</h5>
+        <p>128GB</p>
+        <h5>Operating System</h5>
+        <p>Launched with Android 13/One UI 5.1, upgradable for four generations of Android OS and five years of security updates</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="galaxyA54" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"><h4>Galaxy A54</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="img text-center">
+          <img src="Pictures/samsung-galaxy-a54.jpg" class="img-fluid text-center">
+          <h4>Galaxy A54</h4>
+        </div>   
+        <p>The Samsung Galaxy A54 5G is a popular mid-range Android smartphone known for offering a premium feel and features, such as an excellent Super AMOLED display and a versatile camera system, at a competitive price point.</p>
+        <h5>Display</h5>
+        <p>6.4-inch Super AMOLED with a 120Hz refresh rate, HDR10+, and 1000 nits peak brightness.</p>
+        <h5>Processor</h5>
+        <p>Exynos 1380 Octa-core processor</p>
+        <h5>RAM</h5>
+        <p>6 GB or 8 GB options.</p>
+        <h5>Storage</h5>
+        <p>128gb or 256gb</p>
+        <h5>Operating System</h5>
+        <p>Launched with Android 13/One UI 5.1, upgradable (Samsung promises 4 generations of OS updates and 5 years of security updates).</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="galaxyM14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"><h4>Galaxy M14</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="img text-center">
+          <img src="Pictures/samsung-galaxy-m14-5g-sm-m146.jpg" class="img-fluid text-center">
+          <h4>Galaxy M14</h4>
+        </div>
+        <p>The Samsung Galaxy M14 is a budget-friendly smartphone known for its exceptional battery life, 5G connectivity (in the 5G variant), and a capable 50MP main camera. The phone comes in both 4G and 5G variants with slightly different specifications.</p>
+        <h5>Display</h5>
+        <p>6.6-inch PLS LCD, 90Hz refresh rate, FHD+ resolution (1080 x 2408 pixels), Gorilla Glass 5 protection.</p>
+        <h5>Processor</h5>
+        <p>Exynos 1330 (5nm).</p>
+        <h5>RAM</h5>
+        <p>4 GB or 6 GB.</p>
+        <h5>Storage</h5>
+        <p>64 GB or 128 GB (expandable via microSD).</p>
+        <h5>Opreating System</h5>
+        <p>Android 13 </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="realme11" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><h5>Realme 11 Pro</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+       <div class="modal-body">
+        <div class="img text-center">
+          <img src="Pictures/realme-11-pro.jpg" class="img-fluid">
+          <h4>Realme 11 Pro</h4>
+        </div>
+        <p>The realme 11 Pro 5G is a mid-range Android smartphone that offers a premium design with a vegan leather option, a large 120Hz curved AMOLED display, and a solid 100MP OIS camera system, providing great value for its price segment.</p>
+        <h5>Display</h5>
+        <p>6.7-inch AMOLED curved display with 120Hz refresh rate, HDR10+, FHD+ resolution (1080 x 2412 pixels), and 950 nits peak brightness.</p>
+        <h5>Processor</h5>
+        <p>MediaTek Dimensity 7050 (6 nm) 5G chipset.</p>
+        <h5>RAM</h5>
+        <p>8 GB or 12 GB options</p>
+        <h5>Storage</h5>
+        <p>128 GB, 256 GB</p>
+        <h5>Operating System</h5>
+        <p>Launched with Android 13</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="realmec55" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"><h5>Realme C55</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="img text-center">
+          <img src="Pictures/realme-c55.jpg" class="img-fluid">
+          <h4>Realme C55</h4>
+        </div>
+        <p>The realme C55 is a budget-friendly 4G smartphone known for bringing premium features to an affordable price point, such as a large 64MP main camera, 33W fast charging, a 90Hz Full HD+ display, and a "Mini Capsule" notification feature similar to Apple's Dynamic Island.</p>
+        <h5>Display</h5>
+        <p>6.72-inch IPS LCD with a 90Hz refresh rate, FHD+ resolution (1080 x 2400 pixels), and 680 nits peak brightness.</p>
+        <h5>Processor</h5>
+        <p>MediaTek Helio G88 (12nm) Octa-core chipset.</p>
+        <h5>RAM</h5>
+        <p>4 GB, 6 GB, or 8 GB options</p>
+        <h5>Storage</h5>
+        <p>64 GB, 128 GB, or 256 GB internal storage</p>
+        <h5>Operating System</h5>
+        <p>Launched with Android 13 (realme UI 4.0).</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="Neo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"><h5>Realme GT Neo</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="img text-center">
+          <img src="Pictures/realme-gt-neo2.jpg" class="img-fluid">
+          <h4>Realme GT Neo</h4>
+        </div>
+        <p>The realme GT Neo 2 5G is a performance-focused smartphone featuring the powerful Snapdragon 870 5G chipset, a 120Hz E4 AMOLED display, and a large 5,000mAh battery with 65W fast charging, offering excellent value in the premium mid-range segment.</p>
+        <h5>Display</h5>
+        <p>6.62-inch E4 AMOLED display with a 120Hz refresh rate, FHD+ resolution (1080 x 2400 pixels), 1300 nits peak brightness, and Corning Gorilla Glass 5 protection.</p>
+        <h5>Processor</h5>
+        <p>Qualcomm Snapdragon 870 5G (7nm) Octa-core chipset.</p>
+        <h5>RAM</h5>
+        <p>8 GB or 12 GB</p>
+        <h5>Storage</h5>
+        <p>128 GB or 256 GB internal storage</p>
+        <h5>Operating System</h5>
+        <p>Launched with Android 11 (realme UI 2.0).</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="iphone15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><h5>iphone15</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="img text-center">
+          <img src="Pictures/apple-iphone-15.jpg" class="img-fluid text-center">
+          <h4>iPhone 15</h4>
+        </div>
+       <p>The iPhone 15 is a powerful and durable smartphone from Apple, featuring the A16 Bionic chip, a 48MP main camera, the Dynamic Island, and a USB-C port. It offers solid performance and key upgrades over previous non-Pro models. </p>
+       <h5>Display</h5>
+       <p>6.1-inch Super Retina XDR OLED display with 2556x1179-pixel resolution, 2000 nits peak outdoor brightness, and the Dynamic Island feature.</p>
+       <h5>Processor</h5> 
+       <p>Apple A16 Bionic chip with 6-core CPU and 5-core GPU.</p>
+       <h5>RAM</h5>
+       <p>	6 GB</p>
+       <h5>Storage</h5>
+       <p>128 GB, 256 GB</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="iPhone14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"><h5>iPhone 14</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="img text-center">
+          <img src="Pictures/apple-iphone-14-pro.jpg" class="img-fluid">
+          <h5>iPhone 14</h5>
+        </div>
+        <p>The Apple iPhone 14 is a high-end smartphone featuring the powerful A15 Bionic chip, an advanced dual-camera system, and innovative safety features like Crash Detection and Emergency SOS via satellite. It remains a capable device, especially for those upgrading from older iPhone models. </p>
+        <h5>Display</h5>
+        <p>6.1-inch Super Retina XDR OLED display with 60Hz refresh rate, 800 nits typical brightness, and 1200 nits peak HDR brightness.</p>
+        <h5>Processor</h5>
+        <p>Apple A15 Bionic chip (5nm) with a 6-core CPU (2 performance, 4 efficiency) and 5-core GPU.</p>
+        <h5>RAM</h5>
+        <p>6 GB</p>
+        <h5>Storage</h5>
+        <p>128gb</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="iPhone13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"><h5>iPhone 13</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+       <div class="modal-body">
+        <div class="img text-center">
+          <img src="Pictures/apple-iphone-13.jpg" class="img-fluid">
+          <h4>iPhone 13</h4>
+        </div>
+        <p>The Apple iPhone 13 is a former Apple flagship (released in 2021) that remains a strong performer due to its powerful A15 Bionic chip, excellent camera system with sensor-shift OIS, and solid battery life, making it a good value in today's market.</p>
+        <h5>Display</h5>
+        <p>6.1-inch Super Retina XDR OLED display, 60Hz refresh rate, 800 nits max typical brightness, and 1200 nits peak HDR brightness.</p>
+        <h5>Processor</h5>
+        <p>Apple A15 Bionic chip with a 6-core CPU and 4-core GPU</p>
+        <h5>RAM</h5>
+        <p>4 GB</p>
+        <h5>Storage</h5>
+        <p>128gb</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="iphone15" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><h5>iphone15</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="img text-center">
+          <img src="Pictures/apple-iphone-15.jpg" class="img-fluid text-center">
+          <h4>iPhone 15</h4>
+        </div>
+       <p>The iPhone 15 is a powerful and durable smartphone from Apple, featuring the A16 Bionic chip, a 48MP main camera, the Dynamic Island, and a USB-C port. It offers solid performance and key upgrades over previous non-Pro models. </p>
+       <h5>Display</h5>
+       <p>6.1-inch Super Retina XDR OLED display with 2556x1179-pixel resolution, 2000 nits peak outdoor brightness, and the Dynamic Island feature.</p>
+       <h5>Processor</h5> 
+       <p>Apple A16 Bionic chip with 6-core CPU and 5-core GPU.</p>
+       <h5>RAM</h5>
+       <p>	6 GB</p>
+       <h5>Storage</h5>
+       <p>128 GB, 256 GB</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="iPhone14" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"><h5>iPhone 14</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="img text-center">
+          <img src="Pictures/apple-iphone-14-pro.jpg" class="img-fluid">
+          <h5>iPhone 14</h5>
+        </div>
+        <p>The Apple iPhone 14 is a high-end smartphone featuring the powerful A15 Bionic chip, an advanced dual-camera system, and innovative safety features like Crash Detection and Emergency SOS via satellite. It remains a capable device, especially for those upgrading from older iPhone models. </p>
+        <h5>Display</h5>
+        <p>6.1-inch Super Retina XDR OLED display with 60Hz refresh rate, 800 nits typical brightness, and 1200 nits peak HDR brightness.</p>
+        <h5>Processor</h5>
+        <p>Apple A15 Bionic chip (5nm) with a 6-core CPU (2 performance, 4 efficiency) and 5-core GPU.</p>
+        <h5>RAM</h5>
+        <p>6 GB</p>
+        <h5>Storage</h5>
+        <p>128gb</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="iPhone13" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"><h5>iPhone 13</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+       <div class="modal-body">
+        <div class="img text-center">
+          <img src="Pictures/apple-iphone-13.jpg" class="img-fluid">
+          <h4>iPhone 13</h4>
+        </div>
+        <p>The Apple iPhone 13 is a former Apple flagship (released in 2021) that remains a strong performer due to its powerful A15 Bionic chip, excellent camera system with sensor-shift OIS, and solid battery life, making it a good value in today's market.</p>
+        <h5>Display</h5>
+        <p>6.1-inch Super Retina XDR OLED display, 60Hz refresh rate, 800 nits max typical brightness, and 1200 nits peak HDR brightness.</p>
+        <h5>Processor</h5>
+        <p>Apple A15 Bionic chip with a 6-core CPU and 4-core GPU</p>
+        <h5>RAM</h5>
+        <p>4 GB</p>
+        <h5>Storage</h5>
+        <p>128gb</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="Zero30" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><h5>Zero 30</h5>
+        <button type="button" class="btn-close " data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="img text-center">
+          <img src="Pictures/infinix-zero30-5g.jpg" class="img-fluid">
+          <h4>Zero 30</h4>
+        </div>
+        <p>The term "Zero30" refers to the Infinix Zero 30, a mid-range smartphone known for its 108MP main camera, 50MP selfie camera, and a curved AMOLED display, offering good value for content creators and everyday users. This phone comes in both 4G and 5G variants.</p>
+        <h5>Display</h5>
+        <p>6.78-inch curved AMOLED display, 144Hz refresh rate, FHD+ resolution, Gorilla Glass 5 protection.</p>
+        <h5>Processor</h5>
+        <p>MediaTek Dimensity 8020 (6nm) 5G chipset.</p>
+        <h5>RAM</h5>
+        <p>12 GB (with extended RAM capabilities)</p>
+        <h5>Storage</h5>
+        <p>256 GB internal storage </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="Hot30" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"><h5>Infinix Hot 30</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="img text-center">
+          <img src="Pictures/infinix-hot-30.jpg" class="img-fluid">
+          <h4>Infinix Hot 30</h4>
+        </div>
+        <p>The Infinix Hot 30 is a budget-friendly 4G smartphone that offers a large 90Hz Full HD+ display, a capable 50MP main camera, and a long-lasting 5,000mAh battery with 33W fast charging. It is positioned as an affordable option for everyday use and light gaming.</p>
+        <h5>Display</h5>
+        <p>6.78-inch IPS LCD, 90Hz refresh rate, FHD+ resolution (1080 x 2460 pixels), with a peak brightness of 600 nits.</p>
+        <h5>Processor</h5>
+        <p>MediaTek Helio G88 (12nm) Octa-core gaming engine.</p>
+        <h5>RAM</h5>
+        <p>4 GB or 8 GB</p>
+        <h5>Storage</h5>
+        <p>128 GB internal storage</p>
+        <h5>Opearting System</h5>
+        <p>Launched with Android 13 and XOS 12.6 interface.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="Note30" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"><h5>Infinix Note 30</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="img text-center">
+          <img src="Pictures/infinix-note30-4g.jpg" class="img-fluid">
+          <h4>Infinix Note 30</h4>
+        </div>
+        <p>he Infinix Note 30 is a budget to mid-range 4G smartphone that is popular for its strong feature set for the price. It features a large 120Hz display, a capable 64MP camera, a large 5000mAh battery with 45W fast charging, and the MediaTek Helio G99 processor </p>
+        <h5>Display</h5>
+        <p>6.78-inch IPS LCD with a 120Hz refresh rate, FHD+ resolution (1080 x 2460 pixels), and a punch-hole camera.</p>
+        <h5>Processor</h5>
+        <p>MediaTek Helio G99 (6nm) Octa-core processor</p>
+        <h5>RAM</h5>
+        <p>4 GB or 8 GB</p>
+        <h5>Storage</h5>
+        <p>128 GB or 256 GB internal storage</p>
+       <h5>Opearting System</h5>
+       <p>Launched with Android 13 and the XOS 13 interface.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="pexel8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel"><h5>Google pexel 8</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="img text-center">
+          <img src="Pictures/google-pixel-8.jpg" class="img-fluid text-center">
+          <h4>Meet Pixel 8</h4>
+        </div>
+        <p>Meet Pixel 8 with its amazing camera, powerful security and an all-day battery.2 And with Google AI, you can do more, even faster - like fix photos and screen calls.4 Pixel 8 also has personal safety features for added peace of mind.</p>
+        <h5>Storage</h5> 
+        <p>128 GB / 256 GB UFS 3.1 storage8 </p>
+        <h5>Weight</h5>
+        <p>187 g (6.6 oz)</p>
+        <h5>Dimensions</h5>
+        <p>5.9 height x 2.8 width x 0.4 depth (inches) 150.5 height x 70.8 width x 8.9 depth (mm)</p>
+        <p>OS Android 14</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="pexel9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"><h5>Google pexel 9 pro</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="img text-center">
+          <img src="Pictures/google-pixel-9-pro-.jpg" class="img-fluid text-center">
+          <h4>Google pexel 9 pro</h4>
+        </div>
+        <p>All pro Pure magic.</p>
+        <p>It’s the most powerful Pixel yet, with Gemini, your built-in AI assistant.1 $41.62/mo $31.21/mo Save $250</p>
+        <h5>Designed</h5>
+        <p>Beautifully designed.</p>
+        <p>The Pixel 9 Pro's elevated new design has a silky matte glass back, beautiful dual-finish camera bar and polished-finish metal frame that feels as good as it looks.</p>
+        <h5>Pixel Camera</h5>
+        <p>Award-winning camera.Pro-level photos. The Pixel 9 Pro triple rear camera system gives you super-close closeups, sharp selfies, and rich colors – even in low ligh</p>
+        <h5>Security and OS updates</h5>
+        <p>Seven years of OS, security and Pixel Drop updates41</p>
+        <h5>Operating System</h5>
+        <p>Launched with Android 14</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="pexel7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel"><h5>Pexel 7</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="img text-center">
+          <img src="Pictures/google-pixel-7a.jpg" class="img-fluid text-center">
+          <h4>Google pexel 7 pro</h4>
+        </div>
+        <p>The Google Pixel 7a is a mid-range Android smartphone known for offering many flagship features, including a powerful processor and excellent camera system, at a more affordable price point. It was released in May 2023 and is available in colors like Charcoal, Snow, Sea, and Coral.</p>
+        <h5>Display</h5>
+        <p>6.1-inch OLED, 90Hz refresh rate, 1080 x 2400 pixels resolution, with Corning Gorilla Glass 3 protection.</p>
+        <h5>Processor</h5>
+        <p>Google Tensor G2.</p>
+        <h5>RAM</h5>
+        <p>	8 GB</p>
+        <h5>Storage</h5>
+        <p>128 GB (non-expandable).</p>
+        <h5>Battery</h5>
+        <p>Battery</p>
+        <h5>Operating System</h5>
+        <p>Launched with Android 13, upgradable to Android 16, with 5 years of security updates.</p>
+  
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-danger">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Footer -->
+
+  <footer class="footer_section">
+      <div class="container py-5">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6">
+          <h4 class="footer-logo">
+            <span>Ocean</span>Gate
+          </h4>
+          <p class="footer-text">
+            OceanGate is your premier destination for high-quality smartphones and cutting-edge technology.
+            We connect people with innovation through trusted brands and fast delivery.
+          </p>
+          <ul class="footer-contact list-unstyled">
+            <li><i class="fa-solid fa-location-dot"></i> Karachi, Pakistan</li>
+            <li><i class="fa-solid fa-phone"></i> +92 319 2477442</li>
+            <li><i class="fa-solid fa-envelope"></i> support@oceangate.com</li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-6">
+          <h5 class="footer-title">Quick Links</h5>
+          <ul class="footer-links list-unstyled">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About Us</a></li>
+            <li><a href="Compare.html">Compare</a></li>
+            <li><a href="Gallery.html">Gallery</a></li>
+            <li><a href="Contect.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-title">Top Categories</h5>
+          <ul class="footer-links list-unstyled">
+            <li><a href="Sumsung.html">Samsung Phones</a></li>
+            <li><a href="iPhone.html">iPhone</a></li>
+            <li><a href="Google_pexel.html">Google Pixel</a></li>
+            <li><a href="Realme.html">Realme</a></li>
+            <li><a href="Infinix.html">Infinix</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-title">Stay Connected</h5>
+          <p class="footer-text">Follow us for latest launches & deals.</p>
+        <form class="newsletter-form">
+          <input type="email" class="form-control mb-2" placeholder="Your email" required>
+          <button class="btn btn-danger w-100 btn-sm">Subscribe</button>
+        </form>
+        <div class="footer-social mt-4">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+        </div>
+      </div>
+      <hr class="footer-line">
+      <div class="text-center copyright">
+        © 2026 <strong>OceanGate</strong>. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+  <script>
+    let allProducts = [];
+
+    Promise.all([
+      fetch("Json/sumsung.json").then(res => res.json()),
+      fetch("Json/realme.json").then(res => res.json()),
+      fetch("Json/google.json").then(res => res.json()),
+      fetch("Json/iPhone.json").then(res => res.json()),
+      fetch("Json/inifinix.json").then(res => res.json())
+    ]).then(data => {
+      data.forEach(brand => allProducts = allProducts.concat(brand));
+
+      const select1 = document.getElementById("product1");
+      const select2 = document.getElementById("product2");
+
+      allProducts.forEach((product, index) => {
+        select1.innerHTML += `<option value="${index}">${product.name}</option>`;
+        select2.innerHTML += `<option value="${index}">${product.name}</option>`;
+      });
+    });
+
+    // for Compare products//
+    document.getElementById("product1").addEventListener("change", compareProducts);
+    document.getElementById("product2").addEventListener("change", compareProducts);
+
+    function compareProducts() {
+      const p1 = document.getElementById("product1").value;
+      const p2 = document.getElementById("product2").value;
+
+      if (!p1 || !p2) return;
+      if (p1 === p2) {
+        alert("Please select two different products");
+        return;
+      }
+
+      const product1 = allProducts[p1];
+      const product2 = allProducts[p2];
+
+      // Getting modal //
+      const modal1 = document.getElementById(product1.modeladded);
+      const modal2 = document.getElementById(product2.modeladded);
+
+      const details1 = modal1 ? modal1.querySelector(".modal-body").innerHTML : "<p>No details found</p>";
+      const details2 = modal2 ? modal2.querySelector(".modal-body").innerHTML : "<p>No details found</p>";
+
+      document.getElementById("compareResult").innerHTML = `
+        <div class="row g-4">
+          <div class="col-md-6">
+            <div class="card shadow p-3">${details1}</div>
+          </div>
+          <div class="col-md-6">
+            <div class="card shadow p-3">${details2}</div>
+          </div>
+        </div>
+      `;
+    }
+  </script>
+</body>
 </html>
