@@ -22,5 +22,29 @@
     "image": "Pictures/apple-iphone-13.jpg",
     "modeladded" : "iPhone13",
     "download" : "Pictures/iPhone 13.docx"
+  },
+  {
+    "id": 4,
+    "name": "Apple iPhone 12 mini",
+    "price": "PKR 157,399",
+    "image": "Pictures/apple-iphone-12-mini.jpg",
+    "modeladded" : "iphone12",
+    "download" : "Pictures/Apple iPhone 12 mini.docx"
+  },
+  {
+    "id": 5,
+    "name": "Apple iPhone 16",
+    "price": "PKR 269,999",
+    "image": "Pictures/apple-iphone-16-pro.jpg",
+    "modeladded" : "iPhone16",
+    "download" : "Pictures/Apple iPhone 16 pro.docx"
+  },
+  {
+    "id": 6,
+    "name": "Apple iPhone 17",
+    "price": "PKR 399,000",
+    "image": "Pictures/apple-iphone-17.jpg",
+    "modeladded" : "iPhone17",
+    "download" : "Pictures/iPhone 17.docx"
   }
 ]

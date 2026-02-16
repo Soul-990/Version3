@@ -22,5 +22,29 @@
     "image": "Pictures/infinix-note30-4g.jpg",
     "modeladded" : "Note30",
     "download" : "Pictures/Infinix Note 30.docx"
+  },
+  {
+    "id": 4,
+    "name": "Infinix Smart 10",
+    "price": "PKR 20,999",
+    "image": "Pictures/infinix-smart-10.jpg",
+    "modeladded" : "smart10",
+    "download" : "Pictures/Infinix smart 10.docx"
+  },
+  {
+    "id": 5,
+    "name": "Infinix Note Edge",
+    "price": "PKR 40,799",
+    "image": "Pictures/infinix-note-edge.jpg",
+    "modeladded" : "noteed",
+    "download" : "Pictures/Infinix note Edge.docx"
+  },
+  {
+    "id":6,
+    "name": "Infinix Hot 60i",
+    "price": "PKR 35,999.",
+    "image": "Pictures/infinix-hot-60i.jpg",
+    "modeladded" : "hot60",
+    "download" : "Pictures/Infinix hot 60i.docx"
   }
 ]

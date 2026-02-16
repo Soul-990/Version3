@@ -17,10 +17,34 @@
   },
   {
     "id": 3,
+    "name": "Google pexel 6",
+    "price": "PKR 48,000",
+    "image": "Pictures/google-pixel-6.jpg",
+    "modeladded" : "pexel6",
+    "download" : "Pictures/Google pexel 6.docx"
+  },
+  {
+    "id": 4,
     "name": "Google pexel 7a",
     "price": "PKR 65,000",
     "image": "Pictures/google-pixel-7a.jpg",
     "modeladded" : "pexel7",
     "download" : "Pictures/Google Pexel 7a.docx"
+  },
+  {
+    "id": 5,
+    "name": "Google pexel 10a",
+    "price": "PKR 294,999",
+    "image": "Pictures/google-pixel-10a.jpg",
+    "modeladded" : "pexel10a",
+    "download" : "Pictures/Google Pexel 10a.docx"
+  },
+  {
+    "id": 6,
+    "name": "Google pexel 10 pro xl",
+    "price": "PKR 330,000",
+    "image": "Pictures/google-pixel-10-pro-xl-.jpg",
+    "modeladded" : "pexelo",
+    "download" : "Pictures/Google pexel 10 pro xl.docx"
   }
 ]

@@ -22,5 +22,29 @@
     "image": "Pictures/realme-gt-neo2.jpg",
     "modeladded" : "Neo",
     "download" : "Pictures/Realme GT Neo 2.docx"
+  },
+  {
+    "id": 4,
+    "name": "Realme 16 pro",
+    "price": "PKR 172,999.",
+    "image": "Pictures/realme-16-pro-plus.jpg",
+    "modeladded" : "realme16",
+    "download" : "Pictures/Realme 16 pro plus.docx"
+  },
+  {
+    "id": 5,
+    "name": "Realme Neo8",
+    "price": "PKR 94,999",
+    "image": "Pictures/realme-neo8.jpg",
+    "modeladded" : "neo8",
+    "download" : "Pictures/Realme neo 8.docx"
+  },
+  {
+    "id": 6,
+    "name": "Realme p4 Power",
+    "price": "PKR 152,999.",
+    "image": "Pictures/realme-p4-power.jpg",
+    "modeladded" : "power",
+    "download" : "Pictures/Realme p4 power.docx"
   }
 ]
